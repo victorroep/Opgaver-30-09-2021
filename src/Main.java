@@ -19,7 +19,14 @@ public class Main {
 
         text = inputFromFile.split(" "); // Creates and array of strings, where each element is a single word from the
                                          // file.
+
+        System.out.println("----------TASK 1----------");
+        printLongestWord();
+        System.out.println("----------TASK 2----------");
+        printFirstHalfOfEachWord();
+        System.out.println("----------TASK 3----------");
         printMostFrequentLetter(10);
+        System.out.println("----------TASK 4----------");
         printLeastFrequentLetter(10);
 
         // test dine metoder ved at kalde dem her:
